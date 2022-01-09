@@ -13,8 +13,8 @@ main:
   # pseudo-random operations
   random_seed: 42
 data:
-  file_url: "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true"
-  reference_dataset: "exercise_14/preprocessed_data.csv:latest"
+  file_url: 'https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true'
+  reference_dataset: 'exercise_14/preprocessed_data.csv:latest'
   # Threshold for Kolomorov-Smirnov test
   ks_alpha: 0.05
   test_size: 0.3
@@ -42,26 +42,26 @@ random_forest_pipeline:
     random_state: 42
     verbose: 0
     warm_start: false
-    class_weight: "balanced"
+    class_weight: 'balanced'
     ccp_alpha: 0.0
     max_samples: null
   tfidf:
     max_features: 10
   features:
     numerical:
-      - "danceability"
-      - "energy"
-      - "loudness"
-      - "speechiness"
-      - "acousticness"
-      - "instrumentalness"
-      - "liveness"
-      - "valence"
-      - "tempo"
-      - "duration_ms"
+      - 'danceability'
+      - 'energy'
+      - 'loudness'
+      - 'speechiness'
+      - 'acousticness'
+      - 'instrumentalness'
+      - 'liveness'
+      - 'valence'
+      - 'tempo'
+      - 'duration_ms'
     categorical:
-      - "time_signature"
-      - "key"
+      - 'time_signature'
+      - 'key'
     nlp:
-      - "text_feature"
-  export_artifact: "model_export"
+      - 'text_feature'
+  export_artifact: 'model_export'

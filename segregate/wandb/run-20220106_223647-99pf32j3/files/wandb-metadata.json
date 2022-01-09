@@ -1,0 +1,35 @@
+{
+    "os": "Linux-5.4.0-91-generic-x86_64-with-glibc2.27",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-01-07T01:36:48.718238",
+    "startedAt": "2022-01-07T01:36:47.329806",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "segregated_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/home/jonathan/Documents/ml-devops-eng/GENRE_CLASSIFICATION/segregate/run.py",
+    "codePath": "segregate/run.py",
+    "git": {
+        "remote": "https://github.com/jmcabreira/GENRE_CLASSIFICATION.git",
+        "commit": "b3e314c80e2812a7149e5676ce4f0ca2350b4f18"
+    },
+    "email": "jm_cabreira@id.uff.br",
+    "root": "/home/jonathan/Documents/ml-devops-eng/GENRE_CLASSIFICATION",
+    "host": "Cabreira",
+    "username": "jonathan",
+    "executable": "/home/jonathan/anaconda3/envs/mlflow-b536c99cab3f07bfeb0a1ad9e153575c07cd087e/bin/python"
+}

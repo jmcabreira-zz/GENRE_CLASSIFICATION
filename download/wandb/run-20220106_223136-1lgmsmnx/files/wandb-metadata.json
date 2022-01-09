@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.4.0-91-generic-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-01-07T01:31:38.293032",
+    "startedAt": "2022-01-07T01:31:36.990236",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "download_data.py",
+    "codePath": "download/download_data.py",
+    "git": {
+        "remote": "https://github.com/jmcabreira/GENRE_CLASSIFICATION.git",
+        "commit": "b3e314c80e2812a7149e5676ce4f0ca2350b4f18"
+    },
+    "email": "jm_cabreira@id.uff.br",
+    "root": "/home/jonathan/Documents/ml-devops-eng/GENRE_CLASSIFICATION",
+    "host": "Cabreira",
+    "username": "jonathan",
+    "executable": "/home/jonathan/anaconda3/envs/mlflow-762826667393682ce5aa2d0e5e763952c40774c3/bin/python"
+}

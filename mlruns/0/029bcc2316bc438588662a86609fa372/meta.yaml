@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jonathan/Documents/ml-devops-eng/GENRE_CLASSIFICATION/mlruns/0/029bcc2316bc438588662a86609fa372/artifacts
+end_time: 1641520766034
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 029bcc2316bc438588662a86609fa372
+run_uuid: 029bcc2316bc438588662a86609fa372
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1641520749184
+status: 3
+tags: []
+user_id: jonathan
